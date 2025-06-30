@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 # =====================
 # Constants & Paths
 # =====================
-BASE = r"C:\Users\LENOVO\OneDrive\Desktop\Project_root"
+BASE = os.getcwd()  # Changed from hardcoded path to dynamic
 MODEL_DATA_DIR = os.path.join(BASE, "model_data")
 
 # =====================
